@@ -117,7 +117,7 @@ void MassSpringSystemSimulator::simulateTimestep(float timeStep)
 		}
 
 		// Recalculating forces at the midpoint
-		calculateForces;
+		calculateForces();
 
 		for (int i = 0; i < m_massPoints.size(); i++)
 		{

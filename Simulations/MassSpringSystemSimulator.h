@@ -9,6 +9,29 @@
 // Do Not Change
 
 
+struct MassPoint
+{
+	float m_mass;
+	Vec3 m_position;
+	Vec3 m_velocity;
+	Vec3 m_acceleration;
+	Vec3 m_force;
+	bool m_isFixed;
+
+	MassPoint(float mass, Vec3 position, Vec3 velocity, bool isFixed) : m_mass(mass), m_position(position), m_velocity(velocity),
+		m_acceleration(Vec3(0, 0, 0)), m_force(Vec3(0, 0, 0)), m_isFixed(isFixed) {}
+};
+
+struct Spring
+{
+	MassPoint* m_p1;
+	MassPoint* m_p2;
+	float m_stiffness;
+	float m_baseLength;
+
+	Spring(MassPoint* p1, MassPoint* p2, float stiffness, float baseLength) : m_p1(p1), m_p2(p2), m_stiffness(stiffness), m_baseLength(baseLength) {}
+};
+
 class MassSpringSystemSimulator:public Simulator{
 public:
 	// Construtors
@@ -59,29 +82,6 @@ private:
 	Point2D m_mouse;
 	Point2D m_trackmouse;
 	Point2D m_oldtrackmouse;
-};
-
-struct MassPoint
-{
-	float m_mass;
-	Vec3 m_position;
-	Vec3 m_velocity;
-	Vec3 m_acceleration;
-	Vec3 m_force;
-	bool m_isFixed;
-
-	MassPoint(float mass, Vec3 position, Vec3 velocity, bool isFixed) : m_mass(mass), m_position(position), m_velocity(velocity),
-		m_acceleration(Vec3(0,0,0)), m_force(Vec3(0, 0, 0)), m_isFixed(isFixed) {}
-};
-
-struct Spring
-{
-	MassPoint* m_p1;
-	MassPoint* m_p2;
-	float m_stiffness;
-	float m_baseLength;
-
-	Spring(MassPoint* p1, MassPoint* p2, float stiffness, float baseLength) : m_p1(p1), m_p2(p2), m_stiffness(stiffness), m_baseLength(baseLength) {}
 };
 
 #endif
