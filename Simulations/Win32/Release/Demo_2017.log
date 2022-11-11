@@ -1,0 +1,181 @@
+﻿  MassSpringSystemSimulator.cpp
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\util\vectorbase.h(11,1): warning C4005: 'NOMINMAX': macro redefinition
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\MassSpringSystemSimulator.cpp : message : see previous definition of 'NOMINMAX'
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\MassSpringSystemSimulator.h(54,14): error C2065: 'MassPoint': undeclared identifier
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\MassSpringSystemSimulator.h(54,7): error C2923: 'std::vector': 'MassPoint' is not a valid template type argument for parameter '_Ty'
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\MassSpringSystemSimulator.h(54): message : see declaration of 'MassPoint'
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\MassSpringSystemSimulator.h(54,7): error C2976: 'std::vector': too few template arguments
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(430): message : see declaration of 'std::vector'
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\MassSpringSystemSimulator.h(55,14): error C2065: 'Spring': undeclared identifier
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\MassSpringSystemSimulator.h(55,7): error C2923: 'std::vector': 'Spring' is not a valid template type argument for parameter '_Ty'
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\MassSpringSystemSimulator.h(55): message : see declaration of 'Spring'
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\MassSpringSystemSimulator.h(55,7): error C2976: 'std::vector': too few template arguments
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(430): message : see declaration of 'std::vector'
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\MassSpringSystemSimulator.cpp(4,1): error C2512: 'std::vector': no appropriate default constructor available
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(430,14): message : see declaration of 'std::vector'
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\MassSpringSystemSimulator.cpp(25,14): error C2663: 'std::vector<_Ty,_Alloc>::push_back': 2 overloads have no legal conversion for 'this' pointer
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\MassSpringSystemSimulator.cpp(26,27): error C2662: 'allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\MassSpringSystemSimulator.cpp(26,27): message : Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\MassSpringSystemSimulator.cpp(26,9): message : Conversion requires a second user-defined-conversion operator or constructor
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(1534,49): message : see declaration of 'std::vector<_Ty,_Alloc>::size'
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\MassSpringSystemSimulator.cpp(31,42): error C2663: 'std::vector<_Ty,_Alloc>::at': 2 overloads have no legal conversion for 'this' pointer
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\MassSpringSystemSimulator.cpp(31,72): error C2663: 'std::vector<_Ty,_Alloc>::at': 2 overloads have no legal conversion for 'this' pointer
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\MassSpringSystemSimulator.cpp(31,116): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'Spring'
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\MassSpringSystemSimulator.cpp(31,116): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\MassSpringSystemSimulator.cpp(31,11): error C2663: 'std::vector<_Ty,_Alloc>::push_back': 2 overloads have no legal conversion for 'this' pointer
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\MassSpringSystemSimulator.cpp(36,27): error C2662: 'allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\MassSpringSystemSimulator.cpp(36,27): message : Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\MassSpringSystemSimulator.cpp(36,9): message : Conversion requires a second user-defined-conversion operator or constructor
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(1534,49): message : see declaration of 'std::vector<_Ty,_Alloc>::size'
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\MassSpringSystemSimulator.cpp(41,24): error C2662: 'allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\MassSpringSystemSimulator.cpp(41,24): message : Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\MassSpringSystemSimulator.cpp(41,9): message : Conversion requires a second user-defined-conversion operator or constructor
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(1534,49): message : see declaration of 'std::vector<_Ty,_Alloc>::size'
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\MassSpringSystemSimulator.cpp(46,21): error C2663: 'std::vector<_Ty,_Alloc>::at': 2 overloads have no legal conversion for 'this' pointer
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\MassSpringSystemSimulator.cpp(51,21): error C2663: 'std::vector<_Ty,_Alloc>::at': 2 overloads have no legal conversion for 'this' pointer
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\MassSpringSystemSimulator.cpp(62,37): error C2662: 'allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\MassSpringSystemSimulator.cpp(62,37): message : Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\MassSpringSystemSimulator.cpp(62,22): message : Conversion requires a second user-defined-conversion operator or constructor
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(1534,49): message : see declaration of 'std::vector<_Ty,_Alloc>::size'
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\MassSpringSystemSimulator.cpp(64,28): error C2663: 'std::vector<_Ty,_Alloc>::at': 2 overloads have no legal conversion for 'this' pointer
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\MassSpringSystemSimulator.cpp(64,17): error C2512: 'Spring': no appropriate default constructor available
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\MassSpringSystemSimulator.h(77,8): message : see declaration of 'Spring'
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\MassSpringSystemSimulator.cpp(69,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\MassSpringSystemSimulator.cpp(82,40): error C2662: 'allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\MassSpringSystemSimulator.cpp(82,40): message : Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\MassSpringSystemSimulator.cpp(82,22): message : Conversion requires a second user-defined-conversion operator or constructor
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(1534,49): message : see declaration of 'std::vector<_Ty,_Alloc>::size'
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\MassSpringSystemSimulator.cpp(83,15): error C2663: 'std::vector<_Ty,_Alloc>::at': 2 overloads have no legal conversion for 'this' pointer
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\MassSpringSystemSimulator.cpp(92,41): error C2662: 'allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\MassSpringSystemSimulator.cpp(92,41): message : Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\MassSpringSystemSimulator.cpp(92,23): message : Conversion requires a second user-defined-conversion operator or constructor
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(1534,49): message : see declaration of 'std::vector<_Ty,_Alloc>::size'
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\MassSpringSystemSimulator.cpp(94,30): error C2663: 'std::vector<_Ty,_Alloc>::at': 2 overloads have no legal conversion for 'this' pointer
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\MassSpringSystemSimulator.cpp(94,16): error C2512: 'MassPoint': no appropriate default constructor available
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\MassSpringSystemSimulator.h(64,8): message : see declaration of 'MassPoint'
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\MassSpringSystemSimulator.cpp(108,41): error C2662: 'allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\MassSpringSystemSimulator.cpp(108,41): message : Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\MassSpringSystemSimulator.cpp(108,23): message : Conversion requires a second user-defined-conversion operator or constructor
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(1534,49): message : see declaration of 'std::vector<_Ty,_Alloc>::size'
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\MassSpringSystemSimulator.cpp(110,30): error C2663: 'std::vector<_Ty,_Alloc>::at': 2 overloads have no legal conversion for 'this' pointer
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\MassSpringSystemSimulator.cpp(110,16): error C2512: 'MassPoint': no appropriate default constructor available
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\MassSpringSystemSimulator.h(64,8): message : see declaration of 'MassPoint'
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\MassSpringSystemSimulator.cpp(120,18): error C3867: 'MassSpringSystemSimulator::calculateForces': non-standard syntax; use '&' to create a pointer to member
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\MassSpringSystemSimulator.cpp(122,41): error C2662: 'allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\MassSpringSystemSimulator.cpp(122,41): message : Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\MassSpringSystemSimulator.cpp(122,23): message : Conversion requires a second user-defined-conversion operator or constructor
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(1534,49): message : see declaration of 'std::vector<_Ty,_Alloc>::size'
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\MassSpringSystemSimulator.cpp(124,30): error C2663: 'std::vector<_Ty,_Alloc>::at': 2 overloads have no legal conversion for 'this' pointer
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\MassSpringSystemSimulator.cpp(124,16): error C2512: 'MassPoint': no appropriate default constructor available
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\MassSpringSystemSimulator.h(64,8): message : see declaration of 'MassPoint'
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\MassSpringSystemSimulator.cpp(134,41): error C2662: 'allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\MassSpringSystemSimulator.cpp(134,41): message : Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\MassSpringSystemSimulator.cpp(134,23): message : Conversion requires a second user-defined-conversion operator or constructor
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(1534,49): message : see declaration of 'std::vector<_Ty,_Alloc>::size'
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\MassSpringSystemSimulator.cpp(136,30): error C2663: 'std::vector<_Ty,_Alloc>::at': 2 overloads have no legal conversion for 'this' pointer
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\MassSpringSystemSimulator.cpp(136,16): error C2512: 'MassPoint': no appropriate default constructor available
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\MassSpringSystemSimulator.h(64,8): message : see declaration of 'MassPoint'
+  TemplateSimulator.cpp
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\util\vectorbase.h(11,1): warning C4005: 'NOMINMAX': macro redefinition
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\TemplateSimulator.cpp : message : see previous definition of 'NOMINMAX'
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\util\vectorbase.h(204,36): warning C4244: 'argument': conversion from 'const Scalar' to 'float', possible loss of data
+          with
+          [
+              Scalar=GamePhysics::Real
+          ]
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\util\vectorbase.h(203): message : while compiling class template member function 'DirectX::XMVECTOR GamePhysics::vector3Dim<GamePhysics::Real>::toDirectXVector(void) const'
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\DrawingUtilitiesClass.h(285): message : see reference to function template instantiation 'DirectX::XMVECTOR GamePhysics::vector3Dim<GamePhysics::Real>::toDirectXVector(void) const' being compiled
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\util\vectorbase.h(859): message : see reference to class template instantiation 'GamePhysics::vector3Dim<GamePhysics::Real>' being compiled
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\util\vectorbase.h(204,34): warning C4244: 'argument': conversion from 'const Scalar' to 'float', possible loss of data
+          with
+          [
+              Scalar=GamePhysics::Real
+          ]
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\util\vectorbase.h(204,32): warning C4244: 'argument': conversion from 'const Scalar' to 'float', possible loss of data
+          with
+          [
+              Scalar=GamePhysics::Real
+          ]
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\util\matrixbase.h(777,79): warning C4244: 'argument': conversion from 'Scalar' to 'float', possible loss of data
+          with
+          [
+              Scalar=double
+          ]
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\util\matrixbase.h(773): message : while compiling class template member function 'DirectX::XMMATRIX GamePhysics::matrix4x4<double>::toDirectXMatrix(void)'
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\DrawingUtilitiesClass.h(380): message : see reference to function template instantiation 'DirectX::XMMATRIX GamePhysics::matrix4x4<double>::toDirectXMatrix(void)' being compiled
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\DrawingUtilitiesClass.h(379): message : see reference to class template instantiation 'GamePhysics::matrix4x4<double>' being compiled
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\util\matrixbase.h(777,61): warning C4244: 'argument': conversion from 'Scalar' to 'float', possible loss of data
+          with
+          [
+              Scalar=double
+          ]
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\util\matrixbase.h(777,43): warning C4244: 'argument': conversion from 'Scalar' to 'float', possible loss of data
+          with
+          [
+              Scalar=double
+          ]
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\util\matrixbase.h(777,25): warning C4244: 'argument': conversion from 'Scalar' to 'float', possible loss of data
+          with
+          [
+              Scalar=double
+          ]
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\util\matrixbase.h(776,79): warning C4244: 'argument': conversion from 'Scalar' to 'float', possible loss of data
+          with
+          [
+              Scalar=double
+          ]
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\util\matrixbase.h(776,61): warning C4244: 'argument': conversion from 'Scalar' to 'float', possible loss of data
+          with
+          [
+              Scalar=double
+          ]
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\util\matrixbase.h(776,43): warning C4244: 'argument': conversion from 'Scalar' to 'float', possible loss of data
+          with
+          [
+              Scalar=double
+          ]
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\util\matrixbase.h(776,25): warning C4244: 'argument': conversion from 'Scalar' to 'float', possible loss of data
+          with
+          [
+              Scalar=double
+          ]
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\util\matrixbase.h(775,79): warning C4244: 'argument': conversion from 'Scalar' to 'float', possible loss of data
+          with
+          [
+              Scalar=double
+          ]
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\util\matrixbase.h(775,61): warning C4244: 'argument': conversion from 'Scalar' to 'float', possible loss of data
+          with
+          [
+              Scalar=double
+          ]
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\util\matrixbase.h(775,43): warning C4244: 'argument': conversion from 'Scalar' to 'float', possible loss of data
+          with
+          [
+              Scalar=double
+          ]
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\util\matrixbase.h(775,25): warning C4244: 'argument': conversion from 'Scalar' to 'float', possible loss of data
+          with
+          [
+              Scalar=double
+          ]
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\util\matrixbase.h(774,97): warning C4244: 'argument': conversion from 'Scalar' to 'float', possible loss of data
+          with
+          [
+              Scalar=double
+          ]
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\util\matrixbase.h(774,79): warning C4244: 'argument': conversion from 'Scalar' to 'float', possible loss of data
+          with
+          [
+              Scalar=double
+          ]
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\util\matrixbase.h(774,61): warning C4244: 'argument': conversion from 'Scalar' to 'float', possible loss of data
+          with
+          [
+              Scalar=double
+          ]
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\util\matrixbase.h(774,43): warning C4244: 'argument': conversion from 'Scalar' to 'float', possible loss of data
+          with
+          [
+              Scalar=double
+          ]

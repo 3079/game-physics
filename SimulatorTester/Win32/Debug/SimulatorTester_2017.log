@@ -1,0 +1,121 @@
+﻿  PublicMassSpringSystemTests.cpp
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\util\vectorbase.h(11,1): warning C4005: 'NOMINMAX': macro redefinition
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\SimulatorTester\PublicMassSpringSystemTests.cpp : message : see previous definition of 'NOMINMAX'
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\SimulatorTester\PublicMassSpringSystemTests.cpp(57,1): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\SimulatorTester\PublicMassSpringSystemTests.cpp(72,1): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\SimulatorTester\PublicMassSpringSystemTests.cpp(99,1): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\SimulatorTester\PublicMassSpringSystemTests.cpp(114,1): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\util\vectorbase.h(204,36): warning C4244: 'argument': conversion from 'const Scalar' to 'float', possible loss of data
+          with
+          [
+              Scalar=GamePhysics::Real
+          ]
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\util\vectorbase.h(203): message : while compiling class template member function 'DirectX::XMVECTOR GamePhysics::vector3Dim<GamePhysics::Real>::toDirectXVector(void) const'
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\DrawingUtilitiesClass.h(285): message : see reference to function template instantiation 'DirectX::XMVECTOR GamePhysics::vector3Dim<GamePhysics::Real>::toDirectXVector(void) const' being compiled
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\util\vectorbase.h(859): message : see reference to class template instantiation 'GamePhysics::vector3Dim<GamePhysics::Real>' being compiled
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\util\vectorbase.h(204,34): warning C4244: 'argument': conversion from 'const Scalar' to 'float', possible loss of data
+          with
+          [
+              Scalar=GamePhysics::Real
+          ]
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\util\vectorbase.h(204,32): warning C4244: 'argument': conversion from 'const Scalar' to 'float', possible loss of data
+          with
+          [
+              Scalar=GamePhysics::Real
+          ]
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\util\matrixbase.h(777,79): warning C4244: 'argument': conversion from 'Scalar' to 'float', possible loss of data
+          with
+          [
+              Scalar=double
+          ]
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\util\matrixbase.h(773): message : while compiling class template member function 'DirectX::XMMATRIX GamePhysics::matrix4x4<double>::toDirectXMatrix(void)'
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\DrawingUtilitiesClass.h(380): message : see reference to function template instantiation 'DirectX::XMMATRIX GamePhysics::matrix4x4<double>::toDirectXMatrix(void)' being compiled
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\DrawingUtilitiesClass.h(379): message : see reference to class template instantiation 'GamePhysics::matrix4x4<double>' being compiled
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\util\matrixbase.h(777,61): warning C4244: 'argument': conversion from 'Scalar' to 'float', possible loss of data
+          with
+          [
+              Scalar=double
+          ]
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\util\matrixbase.h(777,43): warning C4244: 'argument': conversion from 'Scalar' to 'float', possible loss of data
+          with
+          [
+              Scalar=double
+          ]
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\util\matrixbase.h(777,25): warning C4244: 'argument': conversion from 'Scalar' to 'float', possible loss of data
+          with
+          [
+              Scalar=double
+          ]
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\util\matrixbase.h(776,79): warning C4244: 'argument': conversion from 'Scalar' to 'float', possible loss of data
+          with
+          [
+              Scalar=double
+          ]
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\util\matrixbase.h(776,61): warning C4244: 'argument': conversion from 'Scalar' to 'float', possible loss of data
+          with
+          [
+              Scalar=double
+          ]
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\util\matrixbase.h(776,43): warning C4244: 'argument': conversion from 'Scalar' to 'float', possible loss of data
+          with
+          [
+              Scalar=double
+          ]
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\util\matrixbase.h(776,25): warning C4244: 'argument': conversion from 'Scalar' to 'float', possible loss of data
+          with
+          [
+              Scalar=double
+          ]
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\util\matrixbase.h(775,79): warning C4244: 'argument': conversion from 'Scalar' to 'float', possible loss of data
+          with
+          [
+              Scalar=double
+          ]
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\util\matrixbase.h(775,61): warning C4244: 'argument': conversion from 'Scalar' to 'float', possible loss of data
+          with
+          [
+              Scalar=double
+          ]
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\util\matrixbase.h(775,43): warning C4244: 'argument': conversion from 'Scalar' to 'float', possible loss of data
+          with
+          [
+              Scalar=double
+          ]
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\util\matrixbase.h(775,25): warning C4244: 'argument': conversion from 'Scalar' to 'float', possible loss of data
+          with
+          [
+              Scalar=double
+          ]
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\util\matrixbase.h(774,97): warning C4244: 'argument': conversion from 'Scalar' to 'float', possible loss of data
+          with
+          [
+              Scalar=double
+          ]
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\util\matrixbase.h(774,79): warning C4244: 'argument': conversion from 'Scalar' to 'float', possible loss of data
+          with
+          [
+              Scalar=double
+          ]
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\util\matrixbase.h(774,61): warning C4244: 'argument': conversion from 'Scalar' to 'float', possible loss of data
+          with
+          [
+              Scalar=double
+          ]
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Simulations\util\matrixbase.h(774,43): warning C4244: 'argument': conversion from 'Scalar' to 'float', possible loss of data
+          with
+          [
+              Scalar=double
+          ]
+     Creating library C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Win32\Debug\SimulationsTester.lib and object C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Win32\Debug\SimulationsTester.exp
+PublicMassSpringSystemTests.obj : error LNK2019: unresolved external symbol "public: __thiscall MassSpringSystemSimulator::MassSpringSystemSimulator(void)" (??0MassSpringSystemSimulator@@QAE@XZ) referenced in function "public: void __thiscall SimulatorTester::PublicMassSpringSystemTests::testSceneSetup(class MassSpringSystemSimulator * &)" (?testSceneSetup@PublicMassSpringSystemTests@SimulatorTester@@QAEXAAPAVMassSpringSystemSimulator@@@Z)
+PublicMassSpringSystemTests.obj : error LNK2019: unresolved external symbol "public: void __thiscall MassSpringSystemSimulator::setMass(float)" (?setMass@MassSpringSystemSimulator@@QAEXM@Z) referenced in function "public: void __thiscall SimulatorTester::PublicMassSpringSystemTests::testSceneSetup(class MassSpringSystemSimulator * &)" (?testSceneSetup@PublicMassSpringSystemTests@SimulatorTester@@QAEXAAPAVMassSpringSystemSimulator@@@Z)
+PublicMassSpringSystemTests.obj : error LNK2019: unresolved external symbol "public: void __thiscall MassSpringSystemSimulator::setStiffness(float)" (?setStiffness@MassSpringSystemSimulator@@QAEXM@Z) referenced in function "public: void __thiscall SimulatorTester::PublicMassSpringSystemTests::testSceneSetup(class MassSpringSystemSimulator * &)" (?testSceneSetup@PublicMassSpringSystemTests@SimulatorTester@@QAEXAAPAVMassSpringSystemSimulator@@@Z)
+PublicMassSpringSystemTests.obj : error LNK2019: unresolved external symbol "public: void __thiscall MassSpringSystemSimulator::setDampingFactor(float)" (?setDampingFactor@MassSpringSystemSimulator@@QAEXM@Z) referenced in function "public: void __thiscall SimulatorTester::PublicMassSpringSystemTests::testSceneSetup(class MassSpringSystemSimulator * &)" (?testSceneSetup@PublicMassSpringSystemTests@SimulatorTester@@QAEXAAPAVMassSpringSystemSimulator@@@Z)
+PublicMassSpringSystemTests.obj : error LNK2019: unresolved external symbol "public: int __thiscall MassSpringSystemSimulator::addMassPoint(class GamePhysics::vector3Dim<double>,class GamePhysics::vector3Dim<double>,bool)" (?addMassPoint@MassSpringSystemSimulator@@QAEHV?$vector3Dim@N@GamePhysics@@0_N@Z) referenced in function "public: void __thiscall SimulatorTester::PublicMassSpringSystemTests::testSceneSetup(class MassSpringSystemSimulator * &)" (?testSceneSetup@PublicMassSpringSystemTests@SimulatorTester@@QAEXAAPAVMassSpringSystemSimulator@@@Z)
+PublicMassSpringSystemTests.obj : error LNK2019: unresolved external symbol "public: void __thiscall MassSpringSystemSimulator::addSpring(int,int,float)" (?addSpring@MassSpringSystemSimulator@@QAEXHHM@Z) referenced in function "public: void __thiscall SimulatorTester::PublicMassSpringSystemTests::testSceneSetup(class MassSpringSystemSimulator * &)" (?testSceneSetup@PublicMassSpringSystemTests@SimulatorTester@@QAEXAAPAVMassSpringSystemSimulator@@@Z)
+PublicMassSpringSystemTests.obj : error LNK2019: unresolved external symbol "public: int __thiscall MassSpringSystemSimulator::getNumberOfMassPoints(void)" (?getNumberOfMassPoints@MassSpringSystemSimulator@@QAEHXZ) referenced in function "public: void __thiscall SimulatorTester::PublicMassSpringSystemTests::TestNumberofMassPoints(void)" (?TestNumberofMassPoints@PublicMassSpringSystemTests@SimulatorTester@@QAEXXZ)
+PublicMassSpringSystemTests.obj : error LNK2019: unresolved external symbol "public: int __thiscall MassSpringSystemSimulator::getNumberOfSprings(void)" (?getNumberOfSprings@MassSpringSystemSimulator@@QAEHXZ) referenced in function "public: void __thiscall SimulatorTester::PublicMassSpringSystemTests::TestNumberofSprings(void)" (?TestNumberofSprings@PublicMassSpringSystemTests@SimulatorTester@@QAEXXZ)
+PublicMassSpringSystemTests.obj : error LNK2019: unresolved external symbol "public: class GamePhysics::vector3Dim<double> __thiscall MassSpringSystemSimulator::getPositionOfMassPoint(int)" (?getPositionOfMassPoint@MassSpringSystemSimulator@@QAE?AV?$vector3Dim@N@GamePhysics@@H@Z) referenced in function "public: void __thiscall SimulatorTester::PublicMassSpringSystemTests::TestPositionOfMassPointsAfter10TimeStepEuler(void)" (?TestPositionOfMassPointsAfter10TimeStepEuler@PublicMassSpringSystemTests@SimulatorTester@@QAEXXZ)
+PublicMassSpringSystemTests.obj : error LNK2019: unresolved external symbol "public: class GamePhysics::vector3Dim<double> __thiscall MassSpringSystemSimulator::getVelocityOfMassPoint(int)" (?getVelocityOfMassPoint@MassSpringSystemSimulator@@QAE?AV?$vector3Dim@N@GamePhysics@@H@Z) referenced in function "public: void __thiscall SimulatorTester::PublicMassSpringSystemTests::TestVelocityOfMassPointsAfter10TimeStepEuler(void)" (?TestVelocityOfMassPointsAfter10TimeStepEuler@PublicMassSpringSystemTests@SimulatorTester@@QAEXXZ)
+PublicMassSpringSystemTests.obj : error LNK2019: unresolved external symbol "public: void __thiscall MassSpringSystemSimulator::applyExternalForce(class GamePhysics::vector3Dim<double>)" (?applyExternalForce@MassSpringSystemSimulator@@QAEXV?$vector3Dim@N@GamePhysics@@@Z) referenced in function "public: void __thiscall SimulatorTester::PublicMassSpringSystemTests::testSceneSetup(class MassSpringSystemSimulator * &)" (?testSceneSetup@PublicMassSpringSystemTests@SimulatorTester@@QAEXAAPAVMassSpringSystemSimulator@@@Z)
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\gamephysicstemplate-master\Win32\Debug\SimulationsTester.dll : fatal error LNK1120: 11 unresolved externals
