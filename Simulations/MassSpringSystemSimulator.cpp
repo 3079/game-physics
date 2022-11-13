@@ -58,6 +58,10 @@ void MassSpringSystemSimulator::applyExternalForce(Vec3 force)
 
 void MassSpringSystemSimulator::calculateForces()
 {
+	// Clear each point's forces
+	for (int i = 0; i < m_massPoints.size(); i++)
+		m_massPoints.at(i).m_force = m_externalForce;
+
 	// Calculate spring forces for every spring and accumulate them in mass points
 	for (int i = 0; i < m_springs.size(); i++)
 	{
@@ -78,10 +82,6 @@ void MassSpringSystemSimulator::calculateForces()
 
 void MassSpringSystemSimulator::simulateTimestep(float timeStep)
 {
-	// Clear each point's forces
-	for (int i = 0; i < m_massPoints.size(); i++)
-		m_massPoints.at(i).m_force = m_externalForce;
-
 	calculateForces();
 
 	// Calculate each point's acceleration, velocity and position according to the m_iIntegrator value
