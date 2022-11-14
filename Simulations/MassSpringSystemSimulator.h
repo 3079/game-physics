@@ -19,7 +19,7 @@ struct MassPoint
 	bool m_isFixed;
 
 	MassPoint(float mass, Vec3 position, Vec3 velocity, bool isFixed) : m_mass(mass), m_position(position), m_velocity(velocity),
-		m_acceleration(Vec3(0, 0, 0)), m_force(Vec3(0, 0, 0)), m_isFixed(isFixed) {}
+		m_acceleration(Vec3()), m_force(Vec3()), m_isFixed(isFixed) {}
 };
 
 struct Spring
@@ -78,6 +78,10 @@ private:
 	std::vector<Spring> m_springs;
 
 	// UI Attributes
+	Vec3  m_vfMovableObjectPos;
+	Vec3  m_vfMovableObjectFinalPos;
+	Vec3  m_vfRotate;
+	float m_fSphereSize;
 	Vec3 m_externalForce;
 	Point2D m_mouse;
 	Point2D m_trackmouse;

@@ -1,13 +1,15 @@
 ﻿  MassSpringSystemSimulator.cpp
 C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\game-physics\Simulations\util\vectorbase.h(11,1): warning C4005: 'NOMINMAX': macro redefinition
 C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\game-physics\Simulations\MassSpringSystemSimulator.cpp : message : see previous definition of 'NOMINMAX'
-C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\game-physics\Simulations\MassSpringSystemSimulator.cpp(62,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\game-physics\Simulations\MassSpringSystemSimulator.cpp(69,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\game-physics\Simulations\MassSpringSystemSimulator.cpp(82,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\game-physics\Simulations\MassSpringSystemSimulator.cpp(92,21): warning C4018: '<': signed/unsigned mismatch
-C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\game-physics\Simulations\MassSpringSystemSimulator.cpp(108,21): warning C4018: '<': signed/unsigned mismatch
-C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\game-physics\Simulations\MassSpringSystemSimulator.cpp(122,21): warning C4018: '<': signed/unsigned mismatch
-C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\game-physics\Simulations\MassSpringSystemSimulator.cpp(134,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\game-physics\Simulations\MassSpringSystemSimulator.cpp(52,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\game-physics\Simulations\MassSpringSystemSimulator.cpp(58,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\game-physics\Simulations\MassSpringSystemSimulator.cpp(182,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\game-physics\Simulations\MassSpringSystemSimulator.cpp(186,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\game-physics\Simulations\MassSpringSystemSimulator.cpp(193,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\game-physics\Simulations\MassSpringSystemSimulator.cpp(212,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\game-physics\Simulations\MassSpringSystemSimulator.cpp(233,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\game-physics\Simulations\MassSpringSystemSimulator.cpp(253,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\game-physics\Simulations\MassSpringSystemSimulator.cpp(271,21): warning C4018: '<': signed/unsigned mismatch
 C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\game-physics\Simulations\util\vectorbase.h(204,36): warning C4244: 'argument': conversion from 'const Scalar' to 'float', possible loss of data
           with
           [

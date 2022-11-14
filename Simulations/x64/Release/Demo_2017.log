@@ -1,2 +1,14 @@
-﻿  MassSpringSystemSimulator.cpp
-c1xx : fatal error C1083: Cannot open source file: 'MassSpringSystemSimulator.cpp': No such file or directory
+﻿FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\game-physics\Simulations\x64\Release\effect.fxo
+  MassSpringSystemSimulator.cpp
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\game-physics\Simulations\util\vectorbase.h(11,1): warning C4005: 'NOMINMAX': macro redefinition
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\game-physics\Simulations\MassSpringSystemSimulator.cpp : message : see previous definition of 'NOMINMAX'
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\game-physics\Simulations\DrawingUtilitiesClass.h(5,10): fatal error C1083: Cannot open include file: 'd3dx11effect.h': No such file or directory
+  TemplateSimulator.cpp
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\game-physics\Simulations\util\vectorbase.h(11,1): warning C4005: 'NOMINMAX': macro redefinition
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\game-physics\Simulations\TemplateSimulator.cpp : message : see previous definition of 'NOMINMAX'
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\game-physics\Simulations\DrawingUtilitiesClass.h(5,10): fatal error C1083: Cannot open include file: 'd3dx11effect.h': No such file or directory
+  FFmpeg.cpp
+  util.cpp
+C:\Users\azoti\Desktop\NIKITA\5. Semester\Physics\game-physics\Simulations\util\util.cpp(5,10): fatal error C1083: Cannot open include file: 'DXUT.h': No such file or directory
